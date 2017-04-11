@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>多级菜单</title>
+<meta charset="utf-8">
+<style>
+	body{
+		background-image: url(bj.jpg);
+		background-size: cover;
+	}
+	ul, h2 {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		list-style: none;
+	}
+	#nav {
+		/*border: 1px solid #333;
+		float: left;*/
+		padding: 5px 0;
+		/*background: #ccf;*/
+		margin-left: 300px;
+		width:250px;
+		background-color: rgba(255,255,255,.5);
+		border-radius: 10px;
+	}
+	#nav ul {
+		padding-left: 20px;
+		display: none;
+	}
+	#nav h2 {
+		font-size: 26px;
+		height: 50px;
+		line-height: 50px;
+		padding: 0 15px;
+		cursor: pointer;
+	}
+	#nav h2:hover { background-color: rgba(255,255,255,.5); }
+	#nav ul.active { display: block; }
+	#nav .active{
+		display: block;
+	}
+</style>
+</head>
+
+<body>
+    <ul id="nav">
+      <li>
+        <h2><span>+</span> 女装 </h2>
+        <ul>
+          <li>
+            <h2><span>+</span> 毛衣针织 </h2>
+            <ul>
+              <li>
+                <h2><span>+</span>毛衣 </h2> <ul>
+                  <li>
+                      <h2><span>+</span>长款</h2>
+                      <ul>
+                        <li>
+                            <h2>印花</h2>
+                        </li>
+                        <li>
+                            <h2>素色</h2>
+                        </li>
+                        <li>
+                            <h2>复古</h2>
+                        </li>
+                      </ul>
+                  </li> 
+                  <li>
+                      <h2><span>+</span>短款</h2>
+                      <ul>
+                        <li>
+                            <h2>印花</h2>
+                        </li>
+                        <li>
+                            <h2>素色</h2>
+                        </li>
+                        <li>
+                            <h2>复古</h2>
+                        </li>
+                      </ul>
+                  </li><li>
+                      <h2><span>+</span>中长款</h2>
+                      <ul>
+                        <li>
+                            <h2>印花</h2>
+                        </li>
+                        <li>
+                            <h2>素色</h2>
+                        </li>
+                        <li>
+                            <h2>复古</h2>
+                        </li>
+                      </ul>
+                  </li>
+                  <li>
+                      <h2><span>+</span>到脚款</h2>
+                      <ul>
+                        <li>
+                            <h2>印花</h2>
+                        </li>
+                        <li>
+                            <h2>素色</h2>
+                        </li>
+                        <li>
+                            <h2>复古</h2>
+                        </li>
+                      </ul>
+                  </li>
+                </ul>   
+              </li>
+              <li>
+                <h2> 毛针织衫 </h2>
+              </li>
+              <li>
+                <h2> 打底衫 </h2>
+              </li>
+              <li>
+                <h2> 羊绒衫 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2><span>+</span> 连衣裙 </h2>
+            <ul>
+              <li>
+                <h2>半身裙 </h2>
+              </li>
+              <li>
+                <h2> 针织裙 </h2>
+              </li>
+              <li>
+                <h2> 皮裙 </h2>
+              </li>
+              <li>
+                <h2> 复古裙 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2> 羽绒棉衣 </h2>
+          </li>
+          <li>
+            <h2> 毛呢外套 </h2>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2><span>+</span> 男装 </h2>
+        <ul>
+          <li>
+            <h2><span>+</span> 外套 </h2>
+            <ul>
+              <li>
+                <h2>羽绒服 </h2>
+              </li>
+              <li>
+                <h2> 秋新款 </h2>
+              </li>
+              <li>
+                <h2> 呢大衣 </h2>
+              </li>
+              <li>
+                <h2> 棉衣 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2><span>+</span> 内搭 </h2>
+            <ul>
+              <li>
+                <h2> 卫衣 </h2>
+              </li>
+              <li>
+                <h2> T恤 </h2>
+              </li>
+              <li>
+                <h2> 衬衫 </h2>
+              </li>
+              <li>
+                <h2> 针织马甲 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2> 西裤 </h2>
+          </li>
+          <li>
+            <h2> 换季清仓 </h2>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2><span>+</span> 箱包 </h2>
+        <ul>
+          <li>
+            <h2><span>+</span> 女包 </h2>
+            <ul>
+              <li>
+                <h2>单肩包 </h2> 
+              </li>
+              <li>
+                <h2> 手提包 </h2>
+              </li>
+              <li>
+                <h2> 小方包 </h2>
+              </li>
+              <li>
+                <h2> 贝壳包 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2><span>+</span> 男包 </h2>
+            <ul>
+              <li>
+                <h2> 商务 </h2>
+              </li>
+              <li>
+                <h2> 休闲 </h2>
+              </li>
+              <li>
+                <h2> 潮流 </h2>
+              </li>
+              <li>
+                <h2> 腰包 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2> 旅行箱 </h2>
+          </li>
+          <li>
+            <h2> 钱包 </h2>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2><span>+</span> 数码 </h2>
+        <ul>
+          <li>
+            <h2><span>+</span> 手机 </h2>
+            <ul>
+              <li>
+                <h2>苹果 </h2>
+              </li>
+              <li>
+                <h2> 红米 </h2>
+              </li>
+              <li>
+                <h2> 小米 </h2>
+              </li>
+              <li>
+                <h2> 魅族 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2><span>+</span> 单反 </h2>
+            <ul>
+              <li>
+                <h2> 镜头 </h2>
+              </li>
+              <li>
+                <h2> 卡片机 </h2>
+              </li>
+              <li>
+                <h2> 拍立得 </h2>
+              </li>
+              <li>
+                <h2>小钢炮 </h2>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2> PC电脑 </h2>
+          </li>
+          <li>
+            <h2> 智能家电 </h2>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+    <script>
+    	var h2All=document.getElementsByTagName("h2");//获取nav里所有的h2
+    	
+    	for(var i=0;i<h2All.length;i++){
+    		h2All[i].onclick=function(){
+    			if(!this.nextElementSibling){
+    				return;
+    			}
+    			if(this.nextElementSibling){
+    				if(this.nextElementSibling.className=="active"){
+						change(this);
+						this.nextElementSibling.className="";
+						this.children[0].innerHTML="+";
+					}else{
+						change(this);
+						this.nextElementSibling.className="active";
+						this.children[0].innerHTML="-";
+					}
+    			}
+    		}
+    	}
+    	function change(a){
+    		for(var i=0;i<a.parentNode.parentNode.getElementsByTagName("ul").length;i++){
+				a.parentNode.parentNode.getElementsByTagName("ul")[i].className="";
+				a.parentNode.parentNode.getElementsByTagName("ul")[i].previousElementSibling.children[0].innerHTML="+";
+			}
+    	}
+    </script>
+</body>
+</html>
